@@ -1,4 +1,4 @@
-package ex5.logic;
+package sjava.logic;
 
 import java.util.concurrent.locks.Condition;
 

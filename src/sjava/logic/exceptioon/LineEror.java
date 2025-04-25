@@ -1,4 +1,4 @@
-package ex5.logic.exceptioon;
+package sjava.logic.exceptioon;
 
 public class LineEror extends CompilationEror {
   private static final String message = "Invalid line on line %d";

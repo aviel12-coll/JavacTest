@@ -1,6 +1,6 @@
-package ex5.logic;
+package sjava.logic;
 
-import ex5.Regex.Regex;
+import sjava.Regex.Regex;
 
 public class anylizeLIne {
 

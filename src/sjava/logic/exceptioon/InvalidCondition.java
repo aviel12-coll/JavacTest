@@ -1,4 +1,4 @@
-package ex5.logic.exceptioon;
+package sjava.logic.exceptioon;
 
 public class InvalidCondition extends CompilationEror {
   private static final String message = "Condition %s seen on line %d is invalid.";

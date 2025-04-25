@@ -1,4 +1,4 @@
-package ex5.Regex;
+package sjava.Regex;
 
 import java.util.regex.Pattern;
 

@@ -1,6 +1,6 @@
-package ex5.main;
+package sjava.main;
 
-import ex5.logic.FileParser;
+import sjava.logic.FileParser;
 
 import java.io.IOException;
 

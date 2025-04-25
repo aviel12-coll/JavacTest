@@ -1,9 +1,9 @@
-package ex5.logic;
+package sjava.logic;
 
 
-import ex5.Regex.Regex;
-import ex5.logic.exceptioon.InvalidTypeVariable;
-import ex5.logic.exceptioon.LineEror;
+import sjava.Regex.Regex;
+import sjava.logic.exceptioon.InvalidTypeVariable;
+import sjava.logic.exceptioon.LineEror;
 
 import javax.naming.InvalidNameException;
 import java.io.BufferedReader;

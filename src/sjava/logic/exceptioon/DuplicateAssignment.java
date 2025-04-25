@@ -1,4 +1,4 @@
-package ex5.logic.exceptioon;
+package sjava.logic.exceptioon;
 
 public class DuplicateAssignment extends RuntimeException {
     private static final String message = "Argument or the Methods %s seen on line %d was already defined.";

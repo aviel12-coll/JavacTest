@@ -1,4 +1,4 @@
-package ex5.logic.exceptioon;
+package sjava.logic.exceptioon;
 
 public class InvalidTypeVariable extends CompilationEror {
     private static final String message = "The type variable  in line \"%s\" is invalid.";

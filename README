@@ -1,0 +1,40 @@
+# sJava Static Code Analyzer
+
+Overview
+The Simple Java Validator (sjavac) is a Java-based tool designed to validate simplified Java code files.
+It analyzes Java source files to check for syntax errors, variable declarations,method definitions, and proper block
+structures. The tool returns output codes to indicate the validation status.
+
+Return Codes
+0: File is valid - no errors found
+1: File contains compilation errors
+2: Invalid program arguments or IO errors
+
+Implementation Details
+
+Regular Expression Patterns: The validator uses a comprehensive set of regex patterns to analyze different code components
+Line-by-Line Analysis: The code processes each line sequentially, tracking scopes and variables
+Object-Oriented Design: The project follows OOP principles with inheritance for different code elements
+Error Handling: Specific exceptions are thrown for different types of validation errors
+
+ex5/
+├── main/
+│   └── sjavac.java            # Main entry point
+├── logic/
+│   ├── FileParser.java        # Core file parsing logic
+│   ├── Variable.java          # Variable handling
+│   ├── Methods.java           # Method declaration validation
+│   ├── If.java                # Conditional statement validation
+│   ├── Objects.java           # Abstract base class
+│   ├── expression.java        # Expression evaluation base
+│   ├── anylizeLIne.java       # Line type detection
+│   ├── LineType.java          # Enumeration of line types
+│   ├── VariableType.java      # Enumeration of variable types
+│   └── exceptioon/            # Exception classes
+│       ├── CompilationEror.java
+│       ├── DuplicateAssignment.java
+│       ├── InvalidCondition.java
+│       ├── InvalidTypeVariable.java
+│       └── LineEror.java
+└── Regex/
+    └── Regex.java             # Regular expression patterns

@@ -1,4 +1,4 @@
-package ex5.logic;
+package sjava.logic;
 
 /**
  * The enum Variable type.
